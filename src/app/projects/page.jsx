@@ -6,8 +6,7 @@ import ProjectContainer from "@/components/ProjectContainer";
 export default function page() {
   return (
     <>
-      <div className="flex flex-col items-center w-full">
-        <Navbar />
+      <div className="flex flex-col items-center w-full bg-black">
         <div className="flex flex-col items-center w-full">
           <h3 className="text-4xl font-semibold">Projects</h3>
           <div className="w-full flex flex-col items-center my-4">

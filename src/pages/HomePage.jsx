@@ -4,7 +4,7 @@ import TechnicalSkill from "@/components/TechnicalSkill";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col items-center w-full max-w-screen">
+    <div className="flex flex-col items-center w-full max-w-screen bg-black">
       <div className="flex justify-center items-center flex-col md:flex-row">
         <div className="w-[50%] flex justify-center">
           <Image
