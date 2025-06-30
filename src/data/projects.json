@@ -24,7 +24,7 @@
     "id": 4,
     "title": "Dragon ball API",
     "description": "Explore the universe created by Akira Toriyama. Built with React.js, Vite, TailwindCSS and DragonBallApi.",
-    "image": "/images/projects/dragonball.jfif",
+    "image": "/images/projects/dragonball.png",
     "link": "https://dragonballmvr.vercel.app/"
   },
   {
@@ -33,5 +33,12 @@
     "description": "Store based on the most famous anime in the world. Created with React Native, Nativewind, Redux, SQLite.",
     "image": "/images/projects/dbstore.png",
     "link": "https://dbstore.netlify.app/"
+  },
+  {
+    "id": 6,
+    "title": "Project Manager",
+    "description": "Project management app for solo use with project and task management. Built with Next.js, Tailwind CSS, and Supabase.",
+    "image": "/images/projects/projectmanager.png",
+    "link": "https://projectmanagermvr.vercel.app/"
   }
 ]
