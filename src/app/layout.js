@@ -9,6 +9,11 @@ const inter = Inter({
 export const metadata = {
   title: "MVR Porfolio",
   description: "Frontend Developer",
+  icons: {
+    icon: "/favicon-v2.ico",
+    apple: "apple-touch-icon.png",
+    shortcut: "favicon-v2.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
