@@ -24,10 +24,10 @@ export default function HomePage() {
           />
         </div>
         <div className="w-[50%] text-center flex flex-col items-center">
-          <h1 className="md:text-4xl font-semibold py-2">
+          <h1 className="md:text-4xl font-semibold py-2 text-white">
             Martin Villalo Ruiz
           </h1>
-          <p className="md:max-w-md md:text-2xl font-bold md:px-4">
+          <p className="md:max-w-md md:text-2xl font-bold md:px-4 text-white">
             Frontend Developer
           </p>
         </div>
@@ -40,15 +40,15 @@ export default function HomePage() {
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <h3 className="text-3xl font-bold py-2 pt-4">About me</h3>
-        <p className="text-lg px-4 pb-2">
+        <h3 className="text-3xl font-bold py-2 pt-4 text-white">About me</h3>
+        <p className="text-lg px-4 pb-2 text-white">
           I'm a frontend developer with a passion for creating modern,
           responsive, and intuitive web applications. I'm always looking to
           learn and grow, whether through personal projects, freelance work, or
           collaborating with others. I value clean code, good design, and user
           experience.
         </p>
-        <p className="text-lg font-semibold px-4 pb-2">
+        <p className="text-lg font-semibold px-4 pb-2 text-white">
           Based in Buenos Aires, Argentina.
         </p>
       </motion.div>
@@ -60,7 +60,7 @@ export default function HomePage() {
         transition={{ duration: 0.6, delay: 0.4 }}
         viewport={{ once: true }}
       >
-        <h3 className="text-3xl font-bold">Technical Skills</h3>
+        <h3 className="text-3xl font-bold text-white">Technical Skills</h3>
         <TechnicalSkill />
       </motion.div>
 

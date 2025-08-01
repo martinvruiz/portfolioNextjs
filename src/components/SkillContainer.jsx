@@ -12,9 +12,9 @@ export default function SkillContainer({ title, platform, image, year }) {
           height={80}
           alt={title}
         />
-        <h3>{title}</h3>
-        <p>{platform}</p>
-        <p>{year}</p>
+        <h3 className="text-white">{title}</h3>
+        <p className="text-white">{platform}</p>
+        <p className="text-white">{year}</p>
       </div>
     </>
   );
