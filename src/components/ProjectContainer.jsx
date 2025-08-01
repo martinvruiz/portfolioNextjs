@@ -1,11 +1,26 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
-export default function ProjectContainer({ image, title, description, link }) {
+export default function ProjectContainer({
+  image,
+  title,
+  description,
+  link,
+  index = 0,
+}) {
   return (
-    <div className="w-[350px] md:w-[430px] h-[480px] bg-gradient-to-br from-white to-gray-100 border-t-4 border-blue-500 rounded-2xl shadow-md hover:scale-105 hover:shadow-xl transition-all duration-300 flex flex-col items-center p-6 group">
-      <div className="w-full flex justify-center mb-4">
-        <div className="overflow-hidden rounded-xl w-full h-60 flex items-center justify-center bg-gray-200">
+    <motion.div
+      className="w-xs md:w-2xl lg:w-4xl h-auto bg-gradient-to-br from-white to-gray-100 rounded-2xl shadow-md hover:scale-105 hover:shadow-xl transition-all duration-300 p-6 group flex flex-col md:flex-row items-center gap-6"
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      viewport={{ once: true }}
+    >
+      <div className="w-full md:w-1/2 flex justify-center">
+        <div className="overflow-hidden rounded-xl w-full h-60 md:h-full flex items-center justify-center bg-gray-200">
           <Image
             src={image}
             alt={title}
@@ -15,11 +30,10 @@ export default function ProjectContainer({ image, title, description, link }) {
           />
         </div>
       </div>
-      <div className="w-full flex flex-col items-center flex-1">
-        <h4 className="text-2xl font-bold text-gray-800 mb-2 text-center">
-          {title}
-        </h4>
-        <p className="text-gray-600 text-center mb-4 flex-1">{description}</p>
+
+      <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left flex-1">
+        <h4 className="text-2xl font-bold text-gray-800 mb-2">{title}</h4>
+        <p className="text-gray-600 mb-4 flex-1">{description}</p>
         <a
           href={link}
           target="_blank"
@@ -42,6 +56,6 @@ export default function ProjectContainer({ image, title, description, link }) {
           </svg>
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 }

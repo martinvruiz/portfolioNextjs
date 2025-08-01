@@ -28,5 +28,11 @@
     "education": "Coderhouse",
     "year": "2025",
     "img": "https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
+  },
+  {
+    "skill": "Node.js",
+    "education": "Talento Tech (GCBA)",
+    "year": "2025",
+    "img": "https://nodejs.org/static/logos/nodejsStackedLight.svg"
   }
 ]

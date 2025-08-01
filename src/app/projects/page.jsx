@@ -6,11 +6,11 @@ import ProjectContainer from "@/components/ProjectContainer";
 export default function page() {
   return (
     <>
-      <div className="flex flex-col items-center w-full bg-black">
-        <div className="flex flex-col items-center w-full">
+      <div className="flex flex-col items-center w-screen min-h-screen bg-blue-950">
+        <div className="flex flex-col items-center w-full mb-4">
           <h3 className="text-4xl font-semibold">Projects</h3>
           <div className="w-full flex flex-col items-center my-4">
-            <ul className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 list-none p-2">
+            <ul className="flex flex-col items-center gap-4 w-full max-w-4xl">
               {projects.map((item) => (
                 <li key={item.id}>
                   <ProjectContainer
