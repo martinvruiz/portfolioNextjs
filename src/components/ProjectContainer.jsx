@@ -14,9 +14,9 @@ export default function ProjectContainer({
   return (
     <motion.div
       className="w-xs md:w-2xl lg:w-4xl h-auto bg-gradient-to-br from-white to-gray-100 rounded-2xl shadow-md hover:scale-105 hover:shadow-xl transition-all duration-300 p-6 group flex flex-col md:flex-row items-center gap-6"
-      initial={{ opacity: 0, y: 50 }}
+      initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
+      transition={{ duration: 0.3, delay: index * 0.1 }}
       viewport={{ once: true }}
     >
       <div className="w-full md:w-1/2 flex justify-center">
