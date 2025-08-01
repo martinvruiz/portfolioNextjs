@@ -34,13 +34,13 @@ export default function HomePage() {
       </motion.div>
 
       <motion.div
-        className="text-center rounded-2xl p-2 my-6 w-xs md:w-2xl lg:w-4xl bg-black/30"
+        className="text-center rounded-2xl p-2 py-4 my-6 w-xs md:w-2xl lg:w-4xl bg-black/30"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <h3 className="text-3xl font-bold py-2 pt-4 text-white">About me</h3>
+        <h3 className="text-3xl font-bold py-2 text-white">About me</h3>
         <p className="text-lg px-4 pb-2 text-white">
           I'm a frontend developer with a passion for creating modern,
           responsive, and intuitive web applications. I'm always looking to
@@ -54,7 +54,7 @@ export default function HomePage() {
       </motion.div>
 
       <motion.div
-        className="text-center rounded-2xl w-xs md:w-2xl lg:w-4xl p-2 mb-6 bg-black/30"
+        className="text-center rounded-2xl w-xs md:w-2xl lg:w-4xl p-2 py-4 mb-6 bg-black/30"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}

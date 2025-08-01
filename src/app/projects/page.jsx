@@ -14,6 +14,7 @@ export default function page() {
               {projects.map((item) => (
                 <li key={item.id}>
                   <ProjectContainer
+                    index={item.id}
                     title={item.title}
                     description={item.description}
                     image={item.image}
