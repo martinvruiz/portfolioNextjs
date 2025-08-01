@@ -8,7 +8,7 @@ export default function Navbar() {
         <li className="text-2xl">
           <Link
             href="/"
-            className="transition-colors duration-600 hover:bg-gray-900 rounded-md p-2"
+            className="transition-colors duration-600 text-white hover:bg-gray-900 rounded-md p-2"
           >
             Home
           </Link>
@@ -16,7 +16,7 @@ export default function Navbar() {
         <li className="text-2xl">
           <Link
             href="/projects"
-            className="transition-colors duration-600 hover:bg-gray-900 rounded-md p-2"
+            className="transition-colors duration-600 text-white hover:bg-gray-900 rounded-md p-2"
           >
             Projects
           </Link>
