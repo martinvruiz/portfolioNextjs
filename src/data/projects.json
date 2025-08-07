@@ -7,25 +7,25 @@
     "link": "https://financermvr.vercel.app/"
   },
   {
+    "id": 3,
+    "title": "Proelec Web",
+    "description": "Informational website for PROELEC. They wanted something simple and easy to navigate. Built with Next.js, Tailwind CSS, and Framer Motion.",
+    "image": "/images/projects/ProelecWeb.png",
+    "link": "https://proelecweb.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Project Manager",
+    "description": "Project management app for solo use with project and task management. Built with Next.js, Tailwind CSS, and Supabase.",
+    "image": "/images/projects/projectmanager.png",
+    "link": "https://projectmanagermvr.vercel.app/"
+  },
+  {
     "id": 2,
     "title": "Notebook",
     "description": "Record your notes and upcoming events. Built with React.js, TailwindCSS and saved in LocalStorage.",
     "image": "/images/projects/Notebook.png",
     "link": "https://notebookmvr.vercel.app/"
-  },
-  {
-    "id": 3,
-    "title": "GymNotes",
-    "description": "Easily track your gym progress. Built with React.js, TailwindCSS and saved in LocalStorage.",
-    "image": "/images/projects/gymnotes.png",
-    "link": "https://gymnotesmvr.vercel.app/"
-  },
-  {
-    "id": 4,
-    "title": "Dragon ball API",
-    "description": "Explore the universe created by Akira Toriyama. Built with React.js, Vite, TailwindCSS and DragonBallApi.",
-    "image": "/images/projects/dragonball.png",
-    "link": "https://dragonballmvr.vercel.app/"
   },
   {
     "id": 5,
@@ -36,9 +36,9 @@
   },
   {
     "id": 6,
-    "title": "Project Manager",
-    "description": "Project management app for solo use with project and task management. Built with Next.js, Tailwind CSS, and Supabase.",
-    "image": "/images/projects/projectmanager.png",
-    "link": "https://projectmanagermvr.vercel.app/"
+    "title": "Dragon ball API",
+    "description": "Explore the universe created by Akira Toriyama. Built with React.js, Vite, TailwindCSS and DragonBallApi.",
+    "image": "/images/projects/dragonball.png",
+    "link": "https://dragonballmvr.vercel.app/"
   }
 ]
